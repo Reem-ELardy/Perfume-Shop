@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="WebStyle.css">
+    <script src="Webfunction.js"></script>
+    <title>PERFUME</title>
+</head>
+<body class="signlog">
+    <form action="Index.html" method="push" class="up" onsubmit="return Check()">
+        <fieldset>
+        <br>
+        <h1 class="head1">Create Account<h1>
+        <br>
+        <label for="Uname">Your name:</label>
+        <br>
+        <input type="text" id="Uname" name="Uname" size="50" maxlength="10" placeholder=" First and Last Name" required>
+        <br>
+        <label for="Uemail">Email:</label>
+        <br>
+        <input type="email" id="Uemail" name="Uemail" size="50" placeholder=" Enter your email" required>
+        <br>
+        <label for="Password">Password:</label>
+        <br>
+        <input type="password" id="Password" name="Password" size="50" minlength="6" placeholder=" At least 6 characters" required>
+        <br>
+        <label for="RePassword">Re-enter Password:</label>
+        <br>
+        <input type="password" id="RePassword" name="RePassword" size="50" minlength="6" placeholder=" Re-enter your password" required>
+        <br>
+        <input type="submit" value="Create Account">
+        <br><br>
+        <h3>By creating an account, you agree to the PERFUME <span >Terms of Service</span> and <span>Privacy Policy</span></h2>
+        <br><br>
+        <h3>Already have an account? <a href="Login.html">Log in</a></h3>
+        </fieldset>
+    </form>
+</body>
+</html>

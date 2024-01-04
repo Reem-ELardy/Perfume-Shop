@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="WebStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="Webfunction.js"></script>
+    <title>PERFUME</title>
+</head>
+
+<body class="darkhome">
+    <div id="headerContainer"></div>
+        
+    <main>
+        <section>
+            <h1 style="font-size: xx-large; padding: 1px;">Shopping Cart</h1>
+            <div id="listOfCartComponents"></div>
+            <h1 class="Carth">Total: </h1>
+            <input type="text" id="Total" value="" style="font-size: larger; font-weight: bold;" readonly>
+
+            <input type="submit" value="Check Out Order" class="Check_Out">
+
+            <script>createCartPages();</script>
+            <script>price()</script>
+        </section>
+    </main>
+    <div id="footerContainer"></div>        
+</body>
+</html>
